@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f1; /* Light green mixed with light and sky blue */
+    color: #333333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  /* Emblem Styles */
+  .emblem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #ffffff;
+  }
+  
+  .emblem img {
+    width: 100%;
+    height: auto;
+    animation: zoomInOut 20s infinite alternate;
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* Footer Styles */
+  footer {
+    background-color: #333333;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
